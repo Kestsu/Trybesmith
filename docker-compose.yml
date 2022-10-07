@@ -3,6 +3,7 @@ version: "3"
 services:
   # Serviço que irá rodar o node
   node:
+    platform: linux/x86_64
     # Imagem base do container
     image: node:16
     # Nome do container para facilitar execução
@@ -40,6 +41,7 @@ services:
 
   # Serviço que irá rodar o banco de dados
   db:
+    platform: linux/x86_64
     container_name: trybesmith_db
     image: mysql:8.0.21
     restart: always
