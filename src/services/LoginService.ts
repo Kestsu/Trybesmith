@@ -1,3 +1,4 @@
+// import { Secret } from 'jsonwebtoken';
 import { IToken, ILogin } from '../interfaces/index';
 
 require('dotenv');
