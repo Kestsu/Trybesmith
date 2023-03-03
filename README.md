@@ -1,13 +1,49 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Trybesmith: Uma loja de itens medievais. (Back-end)
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+Esse projeto é no formato de uma API, utilizando Typescript.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+Ele terá camadas de aplicação (Models, Service e Controllers) e, por meio dessa aplicação, será possível realizar as operações básicas que se pode fazer em um determinado banco de dados: Criação, Leitura, Atualização e Exclusão (ou CRUD, para as pessoas mais íntimas 😜 - Create, Read, Update e Delete).
+
+Essa aplicação tera alguns endpoints que irão ler e escrever em um banco de dados, utilizando o MySQL.
+
+## Conhecimento envolvido:
+
+- Typescript
+- POO
+- SQL
+- Lógica de programação
+
+## Execução da aplicação localmente
+
+
+1. Instale as dependências.
+
+```bash
+npm install
+```
+
+2. Execute o docker.
+
+```bash
+docker-compose up -d
+```
+
+3. Execute o comando que ira rodar a aplicação.
+
+```bash
+npm start
+```
+
+## Caso tenha erro da porta está sendo usada:
+
+ - Vá até o docker e interrompa o docker do node.
+ 
+## Caso não tenha o docker instalado, acesse:
+
+Para linux:
+https://docs.docker.com/engine/install/ubuntu/
+
+Para Mac:
+https://www.docker.com/
+
+
